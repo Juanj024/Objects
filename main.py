@@ -22,5 +22,5 @@ class Team:
         players_str = "\n ".join([str(player) for player in self.teamPlayers])
         return f"{ self.name}\n {players_str}"
 
-team = Team()
+team =Team()
 print(team)
